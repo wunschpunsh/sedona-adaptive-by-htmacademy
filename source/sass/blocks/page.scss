@@ -1,0 +1,24 @@
+.page {
+  height: 100%;
+}
+
+.page__body {
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 320px;
+  background-color: #e7e5e5;
+  // background-color: tomato;
+  color: #000000;
+  font-family: "PT Sans", "Arial" , sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  border: 1px solid #000000;
+
+  @media (min-width: $tablet-width) {
+    min-width: $tablet-width;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: $desktop-width;
+  }
+}

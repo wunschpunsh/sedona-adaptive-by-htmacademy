@@ -1,0 +1,17 @@
+.advantage__item-icon {
+  
+  &--mobile-visible {
+
+    @media (min-width: $tablet-width) {
+      display: none;
+    }
+  }
+
+  &--tablet-visible {
+    display: none;
+
+    @media (min-width: $tablet-width) {
+      display: block;
+    }
+  }
+}
