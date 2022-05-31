@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="icon" href="./favicon.ico">
+  <title>Sedona by HTML Academy</title>
+</head>
+
+<body class="page__body">
+  <header class="main-header">
+    <div class="main-header__container">
+      <a href="#" class="main-header__link">
+        <svg class="main-header__link-logo" width="185" height="96">
+          <use href="./img/sprite.svg#header-logo"></use>
+        </svg>
+      </a>
+      <button class="main-header__button" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+    </div>
+    <div class="main-header__navigation-container">
+      <nav class="main-header__navigation">
+        <ul class="main-header__navigation-list">
+          <li class="main-header__navigation-item">
+            <a href="index.html" class="main-header__navigation-link">Главная</a>
+          </li>
+          <li class="main-header__navigation-item">
+            <a href="#" class="main-header__navigation-link">Фото и видео</a>
+          </li>
+          <li class="main-header__navigation-item">
+            <a href="form.html" class="main-header__navigation-link">Форма отзыва</a>
+          </li>
+          <li class="main-header__navigation-item">
+            <a href="#" class="main-header__navigation-link">html academy</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main-content">
+    <div class="welcome-catalog">
+      <div class="welcome-catalog__container welcome-catalog__background">
+        <svg class="welcome-catalog__logo welcome-catalog__logo--mobile-visible" width="230" height="40" role="img"
+          aria-label="Приветсвенный логотип">
+          <use href="./img/sprite.svg#main-form-logo-small"></use>
+        </svg>
+        <svg class="welcome-catalog__logo welcome-catalog__logo--tablet-visible" width="457" height="78" role="img"
+          aria-label="Приветсвенный логотип">
+          <use href="./img/sprite.svg#main-form-logo-medium"></use>
+        </svg>
+        <svg class="welcome-catalog__logo welcome-catalog__logo--desktop-visible" width="460" height="80" role="img"
+          aria-label="Приветсвенный логотип">
+          <use href="./img/sprite.svg#main-form-logo-large"></use>
+        </svg>
+      </div>
+    </div>
+    <section class="main-catalog">
+      <div class="main-catalog__header-container">
+        <div class="main-catalog__description-container">
+          <h1 class="main-catalog__description-title">Фото и видео</h1>
+          <p class="main-catalog__description-text">Не можете решиться на путешествие из-за курса? Фотографии помогут
+            вам
+            забыть
+            о
+            политике и экономике.</p>
+        </div>
+        <div class="main-catalog__photo photo-card photo-card--hit">
+          <picture>
+            <source media="(min-width: 1200px)"
+              srcset="./img/photos/catalog-road-large.jpg 1x, ./img/photos/catalog-road-large@2x.jpg 2x">
+            <source media="(min-width: 768px)"
+              srcset="./img/photos/catalog-road-medium.jpg 1x, ./img/photos/catalog-road-medium@2x.jpg 2x">
+            <img class="photo-card__image photo-card__image--hit" src="./img/photos/catalog-road-small.jpg" width="280"
+              height="280" srcset="./img/photos/catalog-road-small@2x.jpg 2x" alt="Красивая дорога на закате">
+          </picture>
+          <div class="photo-card__description like">
+            <div class="photo-card__description-container">
+              <h2 class="photo-card__description-title">Неродные просторы</h2>
+              <span class="photo-card__description-author">Автор фото: Борис</span>
+            </div>
+            <div class="like__container">
+              <button class="like__button" type="button">
+                <svg class="like__button-icon" width="23" height="21">
+                  <use href="./img/sprite.svg#like-icon"></use>
+                </svg>
+              </button>
+              <span class="like__counter">1350</span>
+            </div>
+          </div>
+        </div>
+        <div class="main-catalog__photo photo-card">
+          <picture>
+            <source media="(min-width: 1200px)"
+              srcset="./img/photos/catalog-cactus-large.jpg 1x, ./img/photos/catalog-cactus-large@2x.jpg 2x">
+            <source media="(min-width: 768px)"
+              srcset="./img/photos/catalog-cactus-medium.jpg 1x, ./img/photos/catalog-cactus-medium@2x.jpg 2x">
+            <img class="photo-card__image" src="./img/photos/catalog-cactus-small.jpg" width="280" height="280"
+              srcset="./img/photos/catalog-cactus-small@2x.jpg 2x" alt="Кактусы в макросъемке">
+          </picture>
+          <div class="photo-card__description like">
+            <div class="photo-card__description-container">
+              <h2 class="photo-card__description-title">Местная растительность</h2>
+              <span class="photo-card__description-author">Автор фото: Сергей</span>
+            </div>
+            <div class="like__container">
+              <button class="like__button" type="button">
+                <svg class="like__button-icon" width="23" height="21">
+                  <use href="./img/sprite.svg#like-icon"></use>
+                </svg>
+              </button>
+              <span class="like__counter">143</span>
+            </div>
+          </div>
+        </div>
+        <div class="main-catalog__photo photo-card">
+          <picture>
+            <source media="(min-width: 1200px)"
+              srcset="./img/photos/catalog-wood-large.jpg 1x, ./img/photos/catalog-wood-large@2x.jpg 2x">
+            <source media="(min-width: 768px)"
+              srcset="./img/photos/catalog-wood-medium.jpg 1x, ./img/photos/catalog-wood-medium@2x.jpg 2x">
+            <img class="photo-card__image" src="./img/photos/catalog-wood-small.jpg" width="280" height="280"
+              srcset="./img/photos/catalog-wood-small@2x.jpg 2x" alt="Серпантин в горах, кругом лес">
+          </picture>
+          <div class="photo-card__description like">
+            <div class="photo-card__description-container">
+              <h2 class="photo-card__description-title">Дорога на север</h2>
+              <span class="photo-card__description-author">Автор фото: Петр</span>
+            </div>
+            <div class="like__container">
+              <button class="like__button" type="button">
+                <svg class="like__button-icon" width="23" height="21">
+                  <use href="./img/sprite.svg#like-icon"></use>
+                </svg>
+              </button>
+              <span class="like__counter">96</span>
+            </div>
+          </div>
+        </div>
+        <div class="main-catalog__photo photo-card">
+          <picture>
+            <source media="(min-width: 1200px)"
+              srcset="./img/photos/catalog-bridge-large.jpg 1x, ./img/photos/catalog-bridge-large@2x.jpg 2x">
+            <source media="(min-width: 768px)"
+              srcset="./img/photos/catalog-bridge-medium.jpg 1x, ./img/photos/catalog-bridge-medium@2x.jpg 2x">
+            <img class="photo-card__image" src="./img/photos/catalog-bridge-small.jpg" width="280" height="280"
+              srcset="./img/photos/catalog-bridge-small@2x.jpg 2x" alt="Мост дьявола во всей красе">
+          </picture>
+          <div class="photo-card__description like">
+            <div class="photo-card__description-container">
+              <h2 class="photo-card__description-title">Мост дьявола</h2>
+              <span class="photo-card__description-author">Автор фото: Антон</span>
+            </div>
+            <div class="like__container">
+              <button class="like__button" type="button">
+                <svg class="like__button-icon" width="23" height="21">
+                  <use href="./img/sprite.svg#like-icon"></use>
+                </svg>
+              </button>
+              <span class="like__counter">254</span>
+            </div>
+          </div>
+        </div>
+        <div class="main-catalog__video">
+          <div class="main-catalog__video-description-container">
+            <h2 class="main-catalog__video-title">Все еще сомневаетесь?</h2>
+            <p class="main-catalog__video-text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в
+              очередной раз!</p>
+          </div>
+          <div class="main-catalog__video-container">
+            <picture>
+              <source media="(min-width:1200px)"
+                srcset="./img/video-screen-large.jpg 1x, ./img/video-screen-large@2x.jpg 2x">
+              <source media="(min-width:768px)"
+                srcset="./img/video-screen-medium.jpg 1x, ./img/video-screen-medium@2x.jpg 2x">
+              <img class="main-catalog__video-image" src="./img/video-screen-small.jpg"
+                srcset="./img/video-screen-small@2x.jpg 2x" alt="" width="280" height="177">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <h2 class="visually-hidden">Мы в соцсетях</h2>
+    <div class="main-footer__container">
+      <a href="#" class="main-footer__link">
+        <span class="visually-hidden">Логотип "Посетите Седону"</span>
+        <p class="main-footer__logo">#visitSEDONA</p>
+      </a>
+      <div class="main-footer__social-container">
+        <ul class="main-footer__social-list">
+          <li class="main-footer__social-item">
+            <a href="" class="main-footer__social-link">
+              <svg class="main-footer__social-icon" width="24" height="24">
+                <use href="./img/sprite.svg#vk-icon"></use>
+              </svg>
+              <span class="visually-hidden">Мы в контакте</span>
+            </a>
+          </li>
+          <li class="main-footer__social-item">
+            <a href="" class="main-footer__social-link">
+              <svg class="main-footer__social-icon" width="24" height="24">
+                <use href="./img/sprite.svg#telegram-icon"></use>
+              </svg>
+              <span class="visually-hidden">Мы в телеграме</span>
+            </a>
+          </li>
+          <li class="main-footer__social-item">
+            <a href="" class="main-footer__social-link">
+              <svg class="main-footer__social-icon" width="24" height="24">
+                <use href="./img/sprite.svg#youtube-icon"></use>
+              </svg>
+              <span class="visually-hidden">Мы на ютьюбе</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-footer__developer">
+        <span class="main-footer__developer-text">Разработано</span>
+        <a href="" class="main-footer__developer-link">
+          <span class="visually-hidden">Ссылка на сайт HTML Academy</span>
+          <svg class="main-footer__developer-logo" width="27" height="34">
+            <use href="./img/sprite.svg#academy-logo"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src=" ./js/app.min.js"></script>
+</body>
+
+</html>

@@ -1,1 +1,1 @@
-# sedona-adaptive-by-htmacademy
+# adaptive and responsive 
